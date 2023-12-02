@@ -1,0 +1,84 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #ffcdb2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    border: 1px solid black;
+    /*margem interna*/
+    padding: 30px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;   
+    /*centraliza a própria div  */
+    padding: 0;
+}
+
+/*chama a div com a class="topo"*/
+.topo{
+    background-color: #e5989b;
+    /* display:flex; */
+    /* justify-content:center; */
+    background-image: url(cartaoperfurado.png);
+    height:200px;
+}
+
+.nav {
+    background-color: #ff9770;
+    display: flex;
+    justify-content: space-around;
+}
+
+.principal{
+    background-color: #b5838d;
+    text-align: center;
+}
+
+.historia {
+    background-color: #ffe6a7;
+    text-align: center;
+}
+
+.video{
+    background-color: #f6bd60;
+    text-align: center;
+}
+
+.rodape{
+    background-color: #ff9770;
+    text-align: center;
+
+}
+/* coolors.co/  */
+/* adobe colors */
+/* paletton */
+/* Formatar tabela */
+
+table{
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+td{
+    padding: 20px;
+    background-color: #c2c5aa;
+    border-bottom: 1px solid rgb(20, 5, 8);
+}
+
+th{
+    background-color: #99582a;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+
+
+    
